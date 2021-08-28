@@ -4,7 +4,7 @@ function getDays(){
     var date3 = date2.getTime() - new Date(date1).getTime();
   
     var days = Math.floor(date3/(24*3600*1000));
-    retuen days
+    retuen days;
   }
 document.getElementById('love_time').innerHTML=getDays();
 
